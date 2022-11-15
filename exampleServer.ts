@@ -1,6 +1,6 @@
-const http = require('http');
+const httpSimple = require('http');
 
-http.createServer(function (_req, res) {
+httpSimple.createServer(function (_req, res) {
     res.writeHead(200, {'Content-Type': 'text/html'});
     res.write('Hello World!')
     res.end();
