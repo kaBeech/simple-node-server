@@ -1,7 +1,7 @@
-const httpSimple = require('http');
+// const http = require('http');
 
-httpSimple.createServer(function (_req, res) {
-    res.writeHead(200, {'Content-Type': 'text/html'});
-    res.write('Hello World!')
-    res.end();
-}).listen(8080);
+// http.createServer(function (_req, res) {
+//     res.writeHead(200, {'Content-Type': 'text/html'});
+//     res.write('Hello World!')
+//     res.end();
+// }).listen(8080);
