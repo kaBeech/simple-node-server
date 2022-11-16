@@ -2,7 +2,7 @@
   "devDependencies": {
     "@types/node": "^18.11.9"
   },
-  "name": "simple-node-website",
+  "name": "simple-node-server",
   "description": "A simple website implementation in Node.JS",
   "version": "1.0.0",
   "main": "index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaBeech/simple-node-website.git"
+    "url": "git+https://github.com/kaBeech/simple-node-server.git"
   },
   "author": "Kyle Beechly",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kaBeech/simple-node-website/issues"
+    "url": "https://github.com/kaBeech/simple-node-server/issues"
   },
-  "homepage": "https://github.com/kaBeech/simple-node-website#readme",
+  "homepage": "https://github.com/kaBeech/simple-node-server#readme",
   "dependencies": {
     "express": "^4.18.2"
   }
