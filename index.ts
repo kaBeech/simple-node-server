@@ -4,6 +4,7 @@ const http = require('http');
 http.createServer(function (req, res) {
 
     const fileName = "." + req.url;
+    
     const fourOhFour = () => fs.readFile('./404.html', function(err, data) {
         if (err) {
             res.writeHead(404, {'Content-Type': 'text/html'});
@@ -14,6 +15,7 @@ http.createServer(function (req, res) {
         res.write(data);
         return res.end();
     });
+
     fs.readFile(fileName, function(err, data) {
         if (err) {
             return fourOhFour();
