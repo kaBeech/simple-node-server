@@ -1,4 +1,4 @@
 # simple-node-website
-A simple website implementation in Node.JS
+A simple website implementation in Node.JS with Express
 
-I am making this very basic website to practice server implementation and routing in Node.JS
+This is a very basic website I made to practice server implementation and routing in Node.JS using Express
