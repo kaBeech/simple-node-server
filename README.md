@@ -1,4 +1,4 @@
-# simple-node-website
+# simple-node-server
 A simple website implementation in Node.JS
 
 This is very basic website to I made to practice server implementation and routing in Node.JS
